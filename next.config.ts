@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   reactStrictMode: true,
+  output: "export", // 👈 This is the magic line
 };
 
 export default nextConfig;
